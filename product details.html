@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Products details-Oromia shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<bod>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"style="TEXT-DECORATION:NONE;"><H1>Oromia Shop</H1></a>
+                <a href="index.html"> <img src="images\logo.jpg"width="100px"height="30px"/></a>
+               
+            </div>
+             <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                     <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png "width="30px"height="30px"></a>
+            <img src="images/menu.png"class="menu" onClick="menutoggle()">
+         </div>   
+    </div>
+    <!--Single product details-->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2"><img src="images/gallery-4.jpg"width="100%" id="expandedImg">
+                <div class="small-img-row">
+                  <div class="small-img-col">
+                      <img src="images/exclusive.png"width="100%" alt="" onclick="myFunction(this);">
+                  </div>
+                  <div class="small-img-col">
+                    <img src="images/gallery-2.jpg"width="100%" alt=""onclick="myFunction(this);">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/gallery-3.jpg"width="100%" alt=""onclick="myFunction(this);">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/gallery-1.jpg"width="100%" alt=""onclick="myFunction(this);">
+                </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home/T-shirt</p>
+                <h1> T-shirts</h1>
+                <h4>$29.99</h4>
+                <select name="" id="">
+                    <option value="">Select size</option>
+                    <option value="">XL</option>
+                    <option value="">LG</option>
+                    <option value="">MD</option>
+                    <option value="">Small</option>
+                </select>
+                <input type="number"value="1">
+                <a href="cart.html"class="btn">Add To Cart</a>
+                <h3>Product Description <i class="fa fa-indent"></i></h3><br>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority
+                     have suffered alteration in some form, by injected humour, or randomised words which don't 
+                     look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need
+                      to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
+                     to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is ther</p>
+            </div>
+        </div>
+    </div>
+    <!---title-->
+    <div class="small-container">
+        <div class="row-2">
+            <h2>Related products</h2>
+           <a href="products.html"><p>View More..</p></a>
+
+        </div>
+    </div>
+       <!---Products-->
+
+<div class="small-container">
+    <div class="row">
+        <div class="col-4"><img src="images/product-1.jpg" alt="">
+            <h4>Women dress</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$29.99</p>
+        </div>
+        <div class="col-4"><img src="images/product-2.jpg" alt="">
+            <h4>Half suited Women Kamis</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$29.99</p>
+        </div>
+        <div class="col-4"><img src="images/product-3.jpg" alt="">
+            <h4>Blck Printed Kamis</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$29.99</p>
+        </div>
+        <div class="col-4"><img src="images/product-4.jpg" alt="">
+            <h4>Blue Printed Kamis</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$29.99</p>
+        </div>
+    </div>
+    
+</div>
+<!--FOOTER-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p> Download It is a long established fact that a reader will be distracted by
+                     the readable content of a page when looking at its layout. 
+                    The point of using Lorem Ipsum is that it has a more-or-les</p>
+                    <div class="app-logo">
+                        <a href=""><img src="images/play-store.png" alt=""></a>
+                        <a href=""> <img src="images/app-store.png" alt=""></a>
+                    </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.jpg" width="10px" height="50px"alt="">
+                <p> Download It is a long established fact that a reader will be distracted by
+                     the readable content of a page when looking at its layout. 
+                    The point of using Lorem Ipsum is that it has a more-or-les</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>links</h3>
+              <ul>
+                  <li>Coupons</li>
+                  <li>Blog Post</li>
+                  <li>Retun policy</li>
+                  <li>Refund policy</li>
+              </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow Us on Socail Media</h3>
+              <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>YouTube</li>
+              </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copy-right">Copy right 2021-Oromia Shop</p>
+    </div>
+</div>
+
+<script src="Scripts\index.js"></script>
+</body>
+</html>
